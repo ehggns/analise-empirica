@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "algorithm_analysis"
+version = "0.1.0"
+description = "Statistical analysis of selection sort metrics."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.2"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.2"
+plotly = "^5.24.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
