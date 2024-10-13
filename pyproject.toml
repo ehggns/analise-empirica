@@ -1,31 +1,4 @@
 [tool.poetry]
-<<<<<<< HEAD
-name = "analise-empirica"
-version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
-readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-ipywidgets = "^8.1.5"
-matplotlib = "^3.9.2"
-pandas = "^2.2.3"
-torch = "^2.4.1"
-tqdm = "^4.66.5"
-ruff = "^0.6.9"
-cython = "^3.0.11"
-ipykernel = "^6.29.5"
-seaborn = "^0.13.2"
-scikit-learn = "^1.5.2"
-plotly = "^5.24.1"
-nbformat = "^5.10.4"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-=======
 name = "algorithm_analysis"
 version = "0.1.0"
 description = "Statistical analysis of selection sort metrics."
@@ -44,4 +17,3 @@ plotly = "^5.24.1"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
->>>>>>> c39429d (adding new version in c and python)
