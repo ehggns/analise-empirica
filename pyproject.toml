@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "algorithm_analysis"
+name = "app"
 version = "0.1.0"
 description = "Statistical analysis of selection sort metrics."
 authors = ["Your Name <you@example.com>"]
