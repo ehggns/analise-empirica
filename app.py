@@ -257,9 +257,9 @@ def render_details_tab():
     return html.Div(
         [
             html.H4("Algorithm Details"),
-            html.P(
-                "Here you can provide detailed descriptions of each algorithm, their complexities, and other relevant information."
-            ),
+            dcc.Markdown('''
+                # Insert Markdown text here.
+            ''')
             # Add more content as needed
         ]
     )
