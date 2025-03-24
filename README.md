@@ -29,3 +29,12 @@ This will start the application.
 ## Results
 
 Results can be found in `confront_sorts` and `confront_sorts_log_scale` folders
+
+
+## Running the application in local host
+
+```bash
+poetry shell
+
+python3 app.py
+```
